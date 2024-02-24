@@ -1,0 +1,61 @@
+#--------------------------------------------------------
+# Zsh plugin for installing, updating and loding nvm
+#--------------------------------------------------------
+lukechilds/zsh-nvm
+
+#--------------------------------------------------------
+# Adds colors to man pages
+#--------------------------------------------------------
+robbyrussell/oh-my-zsh path:plugins/colored-man-pages
+
+#--------------------------------------------------------
+# provides suggested packages to be installed if a 
+# command cannot be found
+#--------------------------------------------------------
+robbyrussell/oh-my-zsh path:plugins/command-not-found
+
+#--------------------------------------------------------
+# provides many aliases and a few usefuly functions 
+#--------------------------------------------------------
+robbyrussell/oh-my-zsh path:plugins/git
+
+#--------------------------------------------------------
+# provides completion definitions for some of the git
+# commands defined by git-extras 
+#--------------------------------------------------------
+robbyrussell/oh-my-zsh path:plugins/git-extras
+
+#--------------------------------------------------------
+# adds node-docs function that opens specific section in
+# Node.js documentation. 
+#--------------------------------------------------------
+robbyrussell/oh-my-zsh path:plugins/node
+
+
+#--------------------------------------------------------
+# PowerLevel10K theme for zsh. It emphasizes speed,
+# flexibility and out-of-box experience. 
+#--------------------------------------------------------
+romkatv/powerlevel10k
+
+#--------------------------------------------------------
+# jump around 
+#--------------------------------------------------------
+rupa/z
+
+#--------------------------------------------------------
+# Fish-like fast/unobtrusive autosuggestions for zsh.
+# It suggests commands as you type based on history and
+# completions 
+#--------------------------------------------------------
+zsh-users/zsh-autosuggestions
+
+#--------------------------------------------------------
+# Additional completion definitions for zsh
+#--------------------------------------------------------
+zsh-users/zsh-completions
+
+#--------------------------------------------------------
+# Fish shell-like syntax highlighting for zsh 
+#--------------------------------------------------------
+zsh-users/zsh-syntax-highlighting
