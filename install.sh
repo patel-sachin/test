@@ -16,7 +16,7 @@ curl -L https://nixos.org/nix/install | sh
 #-----------------------------------------------------
 # install packages from nix packages
 #-----------------------------------------------------
-nix-env -iA \ 
+nix-env -iA \
         nixpkgs.zsh \
         nixpkgs.antidote \
         nixpkgs.git \
@@ -26,7 +26,7 @@ nix-env -iA \
         nixpkgs.fzf \
         nixpkgs.ripgrep \
         nixpkgs.bat \
-        nixpkgs.direvn
+        nixpkgs.direnv
 
 #-----------------------------------------------------
 # add zsh to the list of available shells
