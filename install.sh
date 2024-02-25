@@ -6,7 +6,7 @@ sudo apt install curl
 #-----------------------------------------------------
 # install nix package manager
 #-----------------------------------------------------
-curl -L https://nixos.org/nix/install | sh
+sh <(curl -L https://nixos.org/nix/install) --no-daemon
 
 #-----------------------------------------------------
 # source nix package manager
@@ -16,17 +16,17 @@ curl -L https://nixos.org/nix/install | sh
 #-----------------------------------------------------
 # install packages from nix packages
 #-----------------------------------------------------
-nix-env -iA \
+nix-env -iA \ 
         nixpkgs.zsh \
         nixpkgs.antidote \
         nixpkgs.git \
         nixpkgs.neovim \
         nixpkgs.tmux \
         nixpkgs.stow \
+        nixpkgs.nvm \
         nixpkgs.fzf \
         nixpkgs.ripgrep \
-        nixpkgs.bat \
-        nixpkgs.direnv
+        nixpkgs.bat 
 
 #-----------------------------------------------------
 # add zsh to the list of available shells
@@ -48,7 +48,8 @@ sudo chsh -s $(which zsh) $USER
 # if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
 #-----------------------------------------------------
 
-#-----------------------------------------------------
-# FINALLY LOG OFF AND LOG IN AGAIN
-#-----------------------------------------------------
+#
+# bundle zsh plugins
+#
+antidote bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 
