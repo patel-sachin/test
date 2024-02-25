@@ -23,10 +23,10 @@ nix-env -iA \
         nixpkgs.neovim \
         nixpkgs.tmux \
         nixpkgs.stow \
-        nixpkgs.nvm \
         nixpkgs.fzf \
         nixpkgs.ripgrep \
-        nixpkgs.bat 
+        nixpkgs.bat \
+        nixpkgs.direvn
 
 #-----------------------------------------------------
 # add zsh to the list of available shells
