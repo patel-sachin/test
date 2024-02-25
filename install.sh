@@ -48,4 +48,7 @@ sudo chsh -s $(which zsh) $USER
 # if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
 #-----------------------------------------------------
 
+#-----------------------------------------------------
+# FINALLY LOG OFF AND LOG IN AGAIN
+#-----------------------------------------------------
 
