@@ -26,7 +26,8 @@ nix-env -iA \
         nixpkgs.fzf \
         nixpkgs.ripgrep \
         nixpkgs.bat \
-        nixpkgs.python3
+        nixpkgs.python3 \
+        nixpkgs.eza
 
 #-----------------------------------------------------
 # add zsh to the list of available shells
